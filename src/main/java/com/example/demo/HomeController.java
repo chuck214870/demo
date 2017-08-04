@@ -15,5 +15,10 @@ public class HomeController {
 		//return "Greetings from Eclipse Spring Boot!";
 		return "hello";
 	}
+	
+	@RequestMapping("/login")
+	public String login() {
+	    return "login";
+	}
 
 }

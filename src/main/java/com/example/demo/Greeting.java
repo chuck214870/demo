@@ -12,12 +12,12 @@ import javax.validation.constraints.Size;
 public class Greeting {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	@NotNull
-    @Min(1)
+	//@NotNull
+    //@Min(1)
     private long id;
 
-    @NotNull
-    @Size(min=2, max=30)
+    //@NotNull
+    //@Size(min=2, max=30)
     private String content;
 	
 	public long getId() {
